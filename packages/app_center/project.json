@@ -4,7 +4,9 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "packages/app_center/src",
-  "tags": [],
+  "tags": [
+    "scope:app_center"
+  ],
   "targets": {
     "build": {
       "executor": "@angular/build:application",

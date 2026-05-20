@@ -4,7 +4,9 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "packages/watch-tower-tms/src",
-  "tags": [],
+  "tags": [
+    "scope:watch-tower"
+  ],
   "targets": {
     "build": {
       "executor": "@angular/build:application",
