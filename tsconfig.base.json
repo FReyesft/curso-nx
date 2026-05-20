@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@curso-nx/ui": ["./packages/shared/ui/src/index.ts"],
+      "@curso-nx/ui-shared": ["./packages/ui-shared/src/index.ts"],
+      "@curso-nx/utils-common": ["./packages/utils-common/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

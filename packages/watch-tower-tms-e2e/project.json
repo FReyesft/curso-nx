@@ -1,0 +1,9 @@
+{
+  "name": "watch-tower-tms-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "packages/watch-tower-tms-e2e/src",
+  "implicitDependencies": ["watch-tower-tms"],
+  "// targets": "to see all targets run: nx show project watch-tower-tms-e2e --web",
+  "targets": {}
+}
